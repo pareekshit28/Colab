@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1009483216324",
+    "firebase_url": "https://colab-ec7fc.firebaseio.com",
+    "project_id": "colab-ec7fc",
+    "storage_bucket": "colab-ec7fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009483216324:android:54cbf0d6ab84541263a091",
+        "android_client_info": {
+          "package_name": "com.colab.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009483216324-tf6qmgpa33idf2chei0p03pjmsrdu6kh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.colab.app",
+            "certificate_hash": "b657012d6fe2f9d81690f74ca36e7531860710ee"
+          }
+        },
+        {
+          "client_id": "1009483216324-v0pkk1hpcee54k659ni74dqs6jk1m9a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD88nTdskWQkaJ1z1_nWb02VoAd-jhyF8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009483216324-v0pkk1hpcee54k659ni74dqs6jk1m9a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

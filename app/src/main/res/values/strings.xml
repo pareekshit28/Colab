@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Colab</string>
+    <string name="login">Log in</string>
+    <string name="to">To</string>
+    <string name="continue_not_keyword">Colab</string>
+    <string name="contact_page_title">Additional Contact Details</string>
+    <string name="contact_phone_number">Phone number</string>
+    <string name="contact_whatsapp_number">Whatsapp Number</string>
+    <string name="contact_user_display_picture">User Display Picture</string>
+    <string name="next_button">Next</string>
+    <string name="skills_page_title">Add Skills</string>
+    <string name="enter_your_skill">Enter your Skills</string>
+    <string name="join_community_label">Join Communities</string>
+    <string name="search">Search Communities</string>
+    <string name="done">Done</string>
+    <string name="create_community">Create a Community</string>
+    <string name="create">Create</string>
+    <string name="place">Place</string>
+    <string name="name">Name</string>
+    <string name="made_with_in_india">Made with ❤ in India</string>
+    <string name="web_client_id">1009483216324-th2d3j62o0bgvqik9b2q9nn2val2hkm2.apps.googleusercontent.com</string>
+    <string name="auth_failed">Authentication Failed</string>
+    <string name="add_a_skill">Add a Skill</string>
+    <string name="create_a_new_community">Tip: Create a new Community</string>
+    <string name="no_communities_found">No Results!</string>
+    <string name="join">Join</string>
+    <string name="exit">Exit</string>
+    <string name="user_dp">User dp</string>
+    <string name="logout">Log Out</string>
+    <string name="profile">Profile</string>
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">Close Navigation Drawer</string>
+    <string name="contact">Contact</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="details">Details</string>
+    <string name="communities">Communities</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="skills">Skills</string>
+    <string name="update">Update</string>
+
+
+</resources>

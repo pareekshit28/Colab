@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+                android:title="@string/communities">
+
+                <menu>
+                        <item
+                            android:id="@+id/nav_join_community"
+                            android:icon="@drawable/ic_baseline_add_circle_outline_24"
+                            android:title="@string/join" />
+                </menu>
+        </item>
+
+        <item
+            android:title="@string/profile">
+
+                <menu>
+                        <item
+                            android:id="@+id/nav_contact"
+                            android:icon="@drawable/ic_outline_perm_phone_msg_24"
+                            android:title="@string/contact_info" />
+                        <item
+                            android:id="@+id/nav_skills"
+                            android:icon="@drawable/ic_outline_list_alt_24"
+                            android:title="@string/skills" />
+
+                        <item
+                            android:id="@+id/nav_log_out"
+                            android:icon="@drawable/ic_baseline_exit_to_app_24"
+                            android:title="@string/logout" />
+                </menu>
+        </item>
+
+
+</menu>
