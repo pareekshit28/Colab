@@ -54,7 +54,7 @@ public class HomeAdapter extends FirestoreRecyclerAdapter<HomeModel,HomeAdapter.
         holder.chipGroup.setVisibility(View.GONE);
 
             if(!uid.equals(user.getUid())){
-                holder.constraintLayout.setPadding(0,24,0,24);
+                holder.constraintLayout.setPadding(0,0,0,56);
                 db.collection("users").document(uid).collection("details").document("details").get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
                     @Override
                     public void onSuccess(DocumentSnapshot documentSnapshot) {

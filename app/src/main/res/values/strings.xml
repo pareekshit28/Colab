@@ -37,6 +37,7 @@
     <string name="contact_info">Contact Info</string>
     <string name="skills">Skills</string>
     <string name="update">Update</string>
+    <string name="colab">Colab</string>
 
 
 </resources>

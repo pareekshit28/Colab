@@ -21,8 +21,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HomeScreenActivity"
-            android:label="Home" />
+            android:name=".HomeScreenActivity" />
         <activity
             android:name=".CreateCommunity"
             android:label="@string/create_community" />
