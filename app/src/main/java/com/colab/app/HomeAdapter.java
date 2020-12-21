@@ -1,6 +1,7 @@
 package com.colab.app;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -77,6 +78,7 @@ public class HomeAdapter extends FirestoreRecyclerAdapter<HomeModel,HomeAdapter.
                 db.collection("users").document(uid).collection("skills").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                     @Override
                     public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
+                        holder.chipGroup.removeAllViews();
                         for(DocumentSnapshot doc : queryDocumentSnapshots.getDocuments()){
                             Chip chip = (Chip) LayoutInflater.from(context).inflate(R.layout.skills_chip_item,holder.chipGroup,false);
                             chip.setText(Objects.requireNonNull(doc.get("skill")).toString());
@@ -84,6 +86,7 @@ public class HomeAdapter extends FirestoreRecyclerAdapter<HomeModel,HomeAdapter.
                         }
                     }
                 });
+
             }
     }
 
