@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
         });
 
     }
-
+    //Create a request to Google to give us the e-mail ids logged in the Device
     private void createRequest() {
         // Configure Google Sign In
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -58,10 +58,13 @@ public class LoginActivity extends AppCompatActivity {
         // Build a GoogleSignInClient with the options specified by gso.
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
     }
+
+    //Show the list of E-mails ids
     private void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
     }
+    //When user selects an e-mail from the list
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -81,7 +84,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         }
     }
-
+    //Giving credentials to Firebase for Authentication
     private void firebaseAuthWithGoogle(String idToken) {
         AuthCredential credential = GoogleAuthProvider.getCredential(idToken, null);
         mAuth.signInWithCredential(credential)
